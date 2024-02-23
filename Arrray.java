@@ -259,38 +259,38 @@ System.out.println(x);
 // }
 // }
 
-public class Arrray {
-    public static void main(String[] args) {
-        int n = 257;
+// public class Arrray {
+//     public static void main(String[] args) {
+//         int n = 257;
 
-        while (n > 0) {
-            int r = n % 10;
-            n = n / 10;
-            System.out.print(r);
+//         while (n > 0) {
+//             int r = n % 10;
+//             n = n / 10;
+//             System.out.print(r);
 
-        }
-        // System.out.println(n);
+//         }
+//         // System.out.println(n);
 
-    }}
+//     }}
 
-    // import java.util.Scanner;
-    // public class Arrray{
-    // public static void main(String[] args){
-    // Scanner sc = new Scanner(System.in);
+//     // import java.util.Scanner;
+//     // public class Arrray{
+//     // public static void main(String[] args){
+//     // Scanner sc = new Scanner(System.in);
 
-    // int n = sc.nextInt();
-    // int count =0;
+//     // int n = sc.nextInt();
+//     // int count =0;
 
-    // while(n >0){
-    // int r= n %10;
-    // n = n /10;
-    // count ++;
-    // // System.out.println(r);
+//     // while(n >0){
+//     // int r= n %10;
+//     // n = n /10;
+//     // count ++;
+//     // // System.out.println(r);
 
-    // }
-    // System.out.println(count);
-    // // System.out.println(n);
-    // sc.close();
+//     // }
+//     // System.out.println(count);
+//     // // System.out.println(n);
+//     // sc.close();
 
-    // }
-    // }
+//     // }
+//     // }
