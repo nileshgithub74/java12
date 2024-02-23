@@ -68,13 +68,25 @@
 //     }
 // }
 
-public class stringpratice{
-    public static void main(String[] args) {
-        // String str = "a";
-        // System.out.println(str.matches("."));
-        String str = "abc";
-        System.out.println(str.matches("[abc]"));
+// public class stringpratice{
+//     public static void main(String[] args) {
+//         // String str = "a";
+//         // System.out.println(str.matches("."));
+//         String str = "abc";
+//         System.out.println(str.matches("[abc]"));
      
        
+//     }
+// }
+
+public class stringpratice{
+    public static void main(String[] args){
+
+        // int a = 10;
+        // System.out.printf("%05d", a);   // flag
+        float  x = 12.45f;
+        System.out.printf("%6.2f", x);
+
+
     }
 }
