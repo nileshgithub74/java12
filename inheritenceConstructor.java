@@ -26,37 +26,37 @@
 
 
 
-// // class Parent 
-// // {
-// //     public Parent(){   // constructor
-// //         System.out.println("parent constructor");
+class Parent 
+{
+    public Parent(){   // constructor
+        System.out.println("parent constructor");
 
-// //     }
-// // }
+    }
+}
 
-// // class Child extends Parent{
-// //     public Child(){
+class Child extends Parent{
+    public Child(){
 
-// //         System.out.println("child Constructor");
+        System.out.println("child Constructor");
 
-// //     }
-// // }
+    }
+}
 
-// // class grandChild extends Child{
-// //     public grandChild(){
+class grandChild extends Child{
+    public grandChild(){
 
-// //         System.out.println("Grandchild Constructor");
+        System.out.println("Grandchild Constructor");
 
-// //     }
-// // }
+    }
+}
 
-// // public class inheritenceConstructor{      
-// //     public static void main(String[] args){
-// //      // Parent  p = new Parent();                 // when we created the obj of class the constructor of the that class is called;
+public class inheritenceConstructor{      
+    public static void main(String[] args){
+     // Parent  p = new Parent();                 // when we created the obj of class the constructor of the that class is called;
 
-// //       grandChild  c = new grandChild();    // when we call the obj of child class then   constructor of parent  class is also called;
-// //     }   
-// // }
+      grandChild  c = new grandChild();    // when we call the obj of child class then   constructor of parent  class is also called;
+    }   
+}
 
 
 
